@@ -1,6 +1,7 @@
 /* INDEX HTML THE MAIN PAGE */
 
 #header-container {
+	min-width: 900px;
 	z-index: 5;
 	position: fixed;
 	top: 0;
@@ -138,9 +139,9 @@
 }
 
 .footer-block {
-	margin-left: 60px;
+	margin-left: 80px;
 	line-height: 170%;
-	padding: 50px;
+	padding: 40px;
 	color: white;
 	float: left;
 }
@@ -155,6 +156,8 @@
 }
 
 #timeline-container {
+	bottom: 0;
+	min-width: 1450px;
 	z-index: 0;
 	position: absolute;
 	background-color: rgb(150, 220, 200);
