@@ -53,9 +53,13 @@
 .divider {
 	position: relative;
 	display: block;
-	top: 160px;
+	top: 170px;
 	margin-right: auto;
 	margin-left: auto;
+	margin-bottom: 20px;
+	width: 800px;
+	height: 4px;
+	background-color: rgb(130, 130, 130);
 }
 
 .intro-img {
