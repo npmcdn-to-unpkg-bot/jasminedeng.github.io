@@ -102,12 +102,14 @@ $(document).ready(function() {
 	var onHover = function(id) {
 		if (!($(id + ' .button').hasClass('button-active'))) {
 			$(id + ' .button').addClass('button-active');
+			$(id + ' .item-active').css('opacity', 1);
 		}
 	};
 
 	var offHover = function(id) {
 		if ($(id + ' .button').hasClass('button-active')) {
 			$(id + ' .button').removeClass('button-active');
+			$(id + ' .item-active').css('opacity', 0);
 		}
 	};
 

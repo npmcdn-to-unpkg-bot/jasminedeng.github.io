@@ -370,6 +370,7 @@
 	width: 900px;
 	margin: 0 auto;
 	margin-top: 150px;
+	margin-bottom: 50px;
 }
 
 .grid-item {
@@ -446,6 +447,15 @@
 	-webkit-transform: translateY(-30%);
 	-moz-transform: translateY(-30%);
 	-o-transform: translateY(-30%);
+}
+
+.item-active {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	opacity: 0;
+	z-index: 3;
 }
 
 /* CONTACT HTML (OPTIONAL), THE PAGE WITH CONTACT FORM THAT DOESN'T TRULY WORK */
