@@ -260,8 +260,8 @@
 
 #line-3 {
 	left: 370px;
-	top: calc(30%)
-	height: calc(50% - 150px);
+	top: calc(32%);
+	height: calc(50% - 25%);
 }
 
 #line-4 {
@@ -273,7 +273,7 @@
 #line-5 {
 	left: 680px;
 	top: 35%;
-	height: calc(50% - 200px);
+	height: calc(50% - 20%);
 }
 
 #line-6 {
@@ -304,7 +304,7 @@
 #line-10 {
 	left: 1220px;
 	top: calc(50% + 50px);
-	height: calc(30%);
+	height: calc(20%);
 }
 
 #elem1 {
