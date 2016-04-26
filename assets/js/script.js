@@ -113,7 +113,7 @@ $(document).ready(function() {
 		}
 	};
 
-	$('#img1').hover(function() { onHover('#img1') }, function() { offHover('#img1'); });
+	$('#img1').hover(function() { console.log("hi"); onHover('#img1') }, function() { offHover('#img1'); });
 	$('#img2').hover(function() { onHover('#img2') }, function() { offHover('#img2'); });
 	$('#img3').hover(function() { onHover('#img3') }, function() { offHover('#img3'); });
 	$('#img4').hover(function() { onHover('#img4') }, function() { offHover('#img4'); });
@@ -135,6 +135,7 @@ $(document).ready(function() {
 	});
 
 	var addDownloadClick = function(id_num) {
+		console.log('created' + id_num);
 		$('#img' + id_num + ' .download-img').click(function() {
 			document.getElementById('download' + id_num).click();
 		});
