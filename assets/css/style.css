@@ -249,7 +249,7 @@
 #line-1 {
 	left: 145px;
 	bottom: calc(50% - 50px);
-	height: calc(50% - 150px);
+	height: calc(30%);
 }
 
 #line-2 {
@@ -267,7 +267,7 @@
 #line-4 {
 	left: 520px;
 	top: calc(50% + 50px);
-	height: calc(10%);
+	height: calc(20%);
 }
 
 #line-5 {
@@ -279,13 +279,13 @@
 #line-6 {
 	left: 750px;
 	top: calc(50% + 50px);
-	height: calc(10%);
+	height: calc(20%);
 }
 
 #line-7 {
 	left: 970px;
 	top: calc(50% + 50px);
-	height: 15%;
+	height: 25%;
 }
 
 #line-8 {
@@ -304,7 +304,7 @@
 #line-10 {
 	left: 1220px;
 	top: calc(50% + 50px);
-	height: calc(20%);
+	height: calc(15%);
 }
 
 #elem1 {
