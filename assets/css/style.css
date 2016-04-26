@@ -157,7 +157,8 @@
 
 #timeline-container {
 	bottom: 0;
-	min-width: 1450px;
+	min-width: 1400px;
+	max-width: 1450px;
 	z-index: 0;
 	position: absolute;
 	background-color: rgb(150, 220, 200);
@@ -253,7 +254,7 @@
 
 #line-2 {
 	left: 295px;
-	top: 415px;
+	top: calc(50% + 50px);
 	height: 100px;
 }
 
@@ -265,7 +266,7 @@
 
 #line-4 {
 	left: 520px;
-	top: 415px;
+	top: calc(50% + 50px);
 	height: 100px;
 }
 
@@ -277,13 +278,13 @@
 
 #line-6 {
 	left: 750px;
-	top: 415px;
+	top: calc(50% + 50px);
 	height: 100px;
 }
 
 #line-7 {
 	left: 970px;
-	top: 415px;
+	top: calc(50% + 50px);
 	height: 250px;
 }
 
@@ -307,52 +308,52 @@
 }
 
 #elem1 {
-	top: 150px;
+	top: 20%;
 	left: 5%;
 }
 
 #elem2 {
-	top: 450px;
+	top: 70%;
 	left: 5%;
 }
 
 #elem3 {
-	top: 150px;
+	top: 25%;
 	left: 0%;
 }
 
 #elem4 {
-	top: 450px;
+	top: 65%;
 	left: 0%;
 }
 
 #elem5 {
-	top: 200px;
+	top: 30%;
 	left: 0%;
 }
 
 #elem6 {
-	top: 500px;
+	top: 65%;
 	left: -5%;
 }
 
 #elem7 {
-	top: 550px;
+	top: 70%;
 	left: 0%;
 }
 
 #elem8 {
-	top: 250px;
+	top: 25%;
 	left: -10%;
 }
 
 #elem9 {
-	top: 200px;
+	top: 20%;
 	left: -5%;
 }
 
 #elem10 {
-	top: 400px;
+	top: 50%;
 	left: 80%;
 }
 
