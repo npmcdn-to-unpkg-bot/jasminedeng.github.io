@@ -255,56 +255,56 @@
 #line-2 {
 	left: 295px;
 	top: calc(50% + 50px);
-	height: 100px;
+	height: calc(20%);
 }
 
 #line-3 {
 	left: 370px;
-	top: 200px;
+	top: calc(30%)
 	height: calc(50% - 150px);
 }
 
 #line-4 {
 	left: 520px;
 	top: calc(50% + 50px);
-	height: 100px;
+	height: calc(10%);
 }
 
 #line-5 {
 	left: 680px;
-	top: 250px;
+	top: 35%;
 	height: calc(50% - 200px);
 }
 
 #line-6 {
 	left: 750px;
 	top: calc(50% + 50px);
-	height: 100px;
+	height: calc(10%);
 }
 
 #line-7 {
 	left: 970px;
 	top: calc(50% + 50px);
-	height: 250px;
+	height: 15%;
 }
 
 #line-8 {
 	left: 980px;
-	top: 300px;
-	height: calc(50% - 250px);
+	top: calc(25% + 10px);
+	height: calc(25% + 40px);
 
 }
 
 #line-9 {
 	left: 1200px;
-	top: 250px;
-	height: calc(50% - 200px);
+	top: calc(20% + 10px);
+	height: calc(30% + 40px);
 }
 
 #line-10 {
 	left: 1220px;
-	top: 415px;
-	height: 200px;
+	top: calc(50% + 50px);
+	height: calc(30%);
 }
 
 #elem1 {
