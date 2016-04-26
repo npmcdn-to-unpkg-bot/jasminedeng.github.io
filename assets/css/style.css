@@ -357,6 +357,13 @@
 	left: 80%;
 }
 
+.background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(150, 220, 200);
+}
+
 /* GALLERY HTML THE PAGE WITH ALL THE IMAGES */
 
 
