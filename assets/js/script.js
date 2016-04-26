@@ -125,5 +125,23 @@ $(document).ready(function() {
 	$('#img10').hover(function() { onHover('#img10') }, function() { offHover('#img10'); });
 	$('#img11').hover(function() { onHover('#img11') }, function() { offHover('#img11'); });
 	$('#img12').hover(function() { onHover('#img12') }, function() { offHover('#img12'); });
+	$('#img13').hover(function() { onHover('#img13') }, function() { offHover('#img13'); });
+	$('#img14').hover(function() { onHover('#img14') }, function() { offHover('#img14'); });
+	$('#img15').hover(function() { onHover('#img15') }, function() { offHover('#img15'); });
+	$('#img16').hover(function() { onHover('#img16') }, function() { offHover('#img16'); });
+
+	$('.share-img').click(function() {
+		document.getElementById('kt-fb').click();
+	});
+
+	var addDownloadClick = function(id_num) {
+		$('#img' + id_num + ' .download-img').click(function() {
+			document.getElementById('download' + id_num).click();
+		});
+	};
+
+	for (i = 1; i < 17; i++) {
+		addDownloadClick(i);
+	}
 
 });
