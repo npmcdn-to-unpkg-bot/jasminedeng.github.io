@@ -93,4 +93,35 @@ $(document).ready(function() {
 		}
 	});
 
+	
+	$('.gallery-grid').masonry({
+		itemSelector: '.grid-item',
+		columnWidth: 100
+	});
+
+	var onHover = function(id) {
+		if (!($(id + ' .button').hasClass('button-active'))) {
+			$(id + ' .button').addClass('button-active');
+		}
+	};
+
+	var offHover = function(id) {
+		if ($(id + ' .button').hasClass('button-active')) {
+			$(id + ' .button').removeClass('button-active');
+		}
+	};
+
+	$('#img1').hover(function() { onHover('#img1') }, function() { offHover('#img1'); });
+	$('#img2').hover(function() { onHover('#img2') }, function() { offHover('#img2'); });
+	$('#img3').hover(function() { onHover('#img3') }, function() { offHover('#img3'); });
+	$('#img4').hover(function() { onHover('#img4') }, function() { offHover('#img4'); });
+	$('#img5').hover(function() { onHover('#img5') }, function() { offHover('#img5'); });
+	$('#img6').hover(function() { onHover('#img6') }, function() { offHover('#img6'); });
+	$('#img7').hover(function() { onHover('#img7') }, function() { offHover('#img7'); });
+	$('#img8').hover(function() { onHover('#img8') }, function() { offHover('#img8'); });
+	$('#img9').hover(function() { onHover('#img9') }, function() { offHover('#img9'); });
+	$('#img10').hover(function() { onHover('#img10') }, function() { offHover('#img10'); });
+	$('#img11').hover(function() { onHover('#img11') }, function() { offHover('#img11'); });
+	$('#img12').hover(function() { onHover('#img12') }, function() { offHover('#img12'); });
+
 });
